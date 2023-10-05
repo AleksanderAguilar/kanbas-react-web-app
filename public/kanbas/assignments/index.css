@@ -1,0 +1,209 @@
+.wd-grid-col-third-page {
+    width: 33%;
+    float: left;
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+div.navbar {
+    position: fixed;
+    width: 85px;
+    height: 1800px;
+    padding: 0%;
+    background-color: #000000;
+    border: 6px solid #000000;
+} 
+
+.wd-padding-navbar {
+    padding: 5px;
+    margin: 5px;
+}
+  
+ .wd-list-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    background-color: black;
+    width: 75px;
+    padding: 0;
+;
+}
+
+.wd-straight-corners-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+   }
+
+.wd-list-group-item { 
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    background-color: #000000;
+    padding: 0;
+}
+
+.list-group-item.active {
+    color: #ff0000;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    border-color: #fff;
+    font-size: 10px;
+    width: 85px;
+}
+
+.wd-course-card {
+    width: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul.wd-acc-nav.list-group {
+    border-radius: 0px;
+    width: 200px;
+}
+
+ul.wd-acc-nav .list-group-item {
+    border: none;
+    font-size: small;
+    margin: 5px;
+}
+ul.wd-acc-nav a{
+    color: #ff0000;
+    text-decoration: none;
+    font-size: small;
+}
+
+ul.wd-acc-nav .list-group-item.active {
+    color: black;
+    border: none;
+    font-size: small;
+    padding-left: 8px;
+    border-left: 2px solid black;
+
+}
+
+div.wd-kanbar-container{
+    width: 96px;
+    height: 1800px;
+    background-color: #000000;
+}
+
+div.wd-course-container{
+    width: 150px;
+    height: 900px;
+    background-color: #fff;
+}
+
+ a{
+    color: #ff0000;
+    text-decoration: none;
+    font-size: small;
+}
+.wd-button-row {
+    flex-wrap:nowrap;
+
+
+}
+
+.wd-button-dimensions {
+    float: right;
+    width: 90px;
+    height: 25px;
+    font-size: xx-small;
+    margin-bottom: 5px;
+    margin-right: 0px;
+}
+
+.wd-button-elipsis {
+    width: 25px;
+    height: 25px;
+    font-size: xx-small;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    float: right;
+}
+
+ul.wd-ass-nav .list-group-item {
+    font-size: small;
+    
+
+}
+ul.wd-ass-nav .list-group-item-j {
+    font-size: small;
+    border-left: 2px solid #109306;
+}
+
+ul.wd-ass-nav a{
+    color: #ff0000;
+    text-decoration: none;
+    font-size: small;
+}
+.wd-check {
+    float: right;
+}
+
+ul.wd-ass-nav.list-group {
+    margin-bottom: 30px;
+}
+
+.wd-navbar {
+    background-color: #000000;
+    color: #fff;
+}
+.wd-flex-row-container {
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .wd-margin-top {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+.wd-assingment-tex{
+    color: #a0a4ab;
+    font-size: smaller;
+}
+.wd-flex-grow-1 {
+    flex-grow: 1;
+    padding-top: 30px;
+  }
+
+  .wd-flex-grow-2 {
+    flex-grow: 1;
+  }
+.wd-button-top {
+    width: 90px;
+    height: 25px;
+    font-size: xx-small;
+    margin-top: 10px;
+    float: right;
+}
+
+a.black {
+    color: #000000;
+    text-decoration: none;
+}
+
+.wd-flex-row-container-2 {
+    flex-direction: row;
+    display: flex;
+
+  }
+
+  .wd-rounded-corners-all-around {
+    border-radius: 5px;
+    
+    border: 1px solid #a0a4ab;
+   }
+   

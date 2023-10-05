@@ -2,193 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="home.css" rel="stylesheet"/>
+    <link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <title>Home</title>
 </head>
 <body>
-        
-    <table width="100%">
+    <table >
         <body>
             <tr valign="top">
                 <!-- Kanbas Navigation-->
                 <td>
-                    <ul>
-                        <li>
-                            <a href="profile/index.html">Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Studio</a>
-                        </li>
-                        <li>
-                            <a href="#">Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                    </ul>
+                    <img style="max-width: 85px;" src="../images/logo.jpeg"/>
+                    <div class= "navbar"></div>
+                    <div class=" wd-list-group wd-straight-corners-top ">
+                        <a href="profile/index.html" class="list-group-item wd-list-group-item">
+                            <span class="fa-stack fa-1x">
+                                <i class="fa fa-regular fa-circle fa-stack-2x" style="color: #85888e;"></i>
+                                <i class="fa fa-user fa-solid fa-stack-1x" style="color: #a0a4ab;"></i>
+                                </span>
+                                <div class=" wd-padding-navbar">Account</div>
+                            </a>
+
+                        <a href="#" class="list-group-item active">
+                            <i class="fa fa-glyph"></i>
+                            <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Dashboard</div>
+                        </a>
+                        <a href="courses.html" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-book fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Courses</div>
+                        </a>
+                        <a href="#" class="list-group-item wd-list-group-item ">
+                            <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i><br/>
+                            <div class=" wd-padding-navbar">Calendar</div>
+                        </a>
+                        <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-inbox fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Inbox</div>    
+                        </a>
+                        <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="far fa-clock fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">History</div>
+                            
+                        </a>
+                        <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-chalkboard fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Studio</div>
+                            
+                        </a>
+                        <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-arrow-alt-circle-right fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Commons</div>
+                            
+                        </a>
+                        <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-question-circle fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Help</div>
+                            
+                            </a>
+                        </div>
                 </td>
-                <!--Course Navigation-->
                 <td>
-                    <ul>
-                        <li>
-                            <a href="/public/kanbas/home.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Modules</a>
-                        </li>
-                        <li>
-                            <a href="#">Piazza</a>
-                        </li>
-                        <li>
-                            <a href="#">Zoom Meetings</a>
-                        </li>
-                        <li>
-                            <a href="assignments/index.html">Assignments</a>
-                        </li>
-                        <li>
-                            <a href="#">Quizzes</a>
-                        </li>
-                        <li>
-                            <a href="grades.html">Grades</a>
-                        </li>
-                        <li>
-                            <a href="#">People</a>
-                        </li>
-                        <li>
-                            <a href="#">Panopto Video</a>
-                        </li>
-                        <li>
-                            <a href="#">Discussions</a>
-                        </li>
-                        <li>
-                            <a href="#">Anouncements</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages</a>
-                        </li>
-                        <li>
-                            <a href="#">Files</a>
-                        </li>
-                        <li>
-                            <a href="#">Rubrics</a>
-                        </li>
-                        <li>
-                            <a href="#">Outcomes</a>
-                        </li>
-                        <li>
-                            <a href="#">Collaborations</a>
-                        </li>
-                        <li>
-                            <a href="#">Syllabus</a>
-                        </li>
-                        <li>
-                            <a href="#">Settings</a>
-                        </li>
-                    </ul>
+                    <h2>Dashboard</h2>
+                    <hr>
+                    <h3>Published Courses (7)</h3>
+                    <hr>
+
+                    <div class="row row-cols-2 row-cols-md-4 g-4 d-flex">
+                        <div class="col wd-course-card">
+                          <div class="card h-100">
+                            <img style="max-height: 150px;" src="../images/pink.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">CS4550 19753 Web Development</h5>
+                              <p class="card-text">202410_1 Fall 2023 Semester Full Term</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col wd-course-card">
+                            <div class="card h-100">
+                              <img style="max-height: 150px;" src="../images/green.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">CS2350 23477 Compilers</h5>
+                                <p class="card-text">202410_1 Fall 2023 Semester Full Term</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col wd-course-card">
+                            <div class="card h-100">
+                              <img style="max-height: 150px;" src="../images/cyan.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">CS2788 98346 English</h5>
+                                <p class="card-text">202410_1 Fall 2023 Semester Full Term</p>
+                              </div>
+                            </div>
+                          </div>
+                        
+                          <div class="col wd-course-card">
+                            <div class="card h-100">
+                              <img style="max-height: 150px;" src="../images/cyan.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">CS110 23456 Programming Languages</h5>
+                                <p class="card-text">202410_1 Fall 2023 Semester Full Term</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col wd-course-card">
+                            <div class="card h-100">
+                              <img style="max-height: 150px;" src="../images/green.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">CS2350 23477 Compilers</h5>
+                                <p class="card-text">202410_1 Fall 2023 Semester Full Term</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="col wd-course-card">
+                            <div class="card h-100">
+                              <img style="max-height: 150px;" src="../images/pink.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">CS2350 12344 Compilers</h5>
+                                <p class="card-text">202410_1 Fall 2023 Semester Full Term</p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
                 </td>
-                <!--Modules-->
-                <td>
-                    <!--Buttons-->
-                    <button>Collapse All</button>
-                    <button>View Progress</button>
-                    <select>
-                        <option>Publish All</option>
-                        <option>Publish All modules and items</option>
-                        <option>Publish modules only</option>
-                        <option>Unpublish All </option>
-                    </select>
-                    <button>Module</button>
-                    
-                    <!--Content-->
-                    <ul>
-                        <li>Week 0 - INTRO
-                            <ul>
-                                <li>LEARNING OBJECTIVES
-                                    <ul>
-                                        <li>Introduction to the course</li>
-                                        <li>Learn what is Web Development</li>
-                                        <li>Creating a development envirnment</li>
-                                        <li>Creating a Web Application</li>
-                                        <li>Getting started with 1st assignment</li>
-                                    </ul>
-                                </li>
-                                <li>READING
-                                    <ul>
-                                        <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                                        <li>Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML</li>
-                                    </ul>
-                                </li>
-                                <li>SLIDES
-                                    <ul>
-                                        <li><a href="#">Introduction to Web Development Links to an external site.</a></li>
-                                        <li><a href="#">Creating an HTTP server with Node.js</a></li>
-                                        <li><a href="#">Creating a React Application Links to an external site.</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>Week 1 - HTML
-                            <ul>
-                                <li>LEARNING OBJECTIVES
-                                    <ul>
-                                        <li>Learn how to create user interfaces with HTML</li>
-                                        <li>Keep working on assignment 1</li>
-                                        <li>Deploy the assignment on Netlify</li>
-                                    </ul>
-                                <li>READING
-                                    <ul>
-                                        <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                                        <li>Full Stack Developer - Chapter 2 - Creating User Interfaces with HTML</li>
-                                    </ul>
-                                </li>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-            </td>
-            <!--Course Status-->
-            <td>
-                <h2>Course Status</h2>
-                <!--Buttons for Course Status-->
-                <button>Unpublish</button>
-                <button>Publish</button>
-
-                <ul>
-                    <li><a href="#">Import Existing Content</a></li>
-                    <li><a href="#">Import From Commons</a></li>
-                    <li><a href="#">Choose Home Page</a></li>
-                    <li><a href="#">View Course Stream</a></li>
-                    <li><a href="#">New Anouncment</a></li>
-                    <li><a href="#">New Analytics</a></li>
-                    <li><a href="#">View Course Notification</a></li>
-                </ul>
-
-                <h2>Comming Up</h2>
-                <a href="#">View Calendar</a>
-
-                <ul>
-                    <li><a href="#">Lecture CS4550.1263.202410 Sep 7 at 11:45am</a></li>
-                    <li><a href="#">Lecture CS4550.1263.202410 Sep 11 at 11:45am</a></li>
-                    <li><a href="#">CS5610 06 SP23 Lecture Sep 11 at 6pm</a></li>
-
-
-                </ul>
-
-            </td>
             </tr>
         </body>
     </table>

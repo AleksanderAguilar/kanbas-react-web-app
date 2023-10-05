@@ -2,74 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <title>Home</title>
 </head>
 <body>
-        
-    <table width="100%">
+    <table width="80%">
         <body>
             <tr valign="top">
-                <!-- Kanbas Navigation-->
                 <td>
-                    <ul>
-                        <li>
-                            <a href="index.html">Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="../home.html">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Studio</a>
-                        </li>
-                        <li>
-                            <a href="#">Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                    </ul>
+                    <img style="max-width: 85px;" src="../../images/logo.jpeg"/>
+                    <div class= "navbar"></div> 
+                    <div class=" wd-list-group wd-straight-corners-top ">
+                        <a href="profile/index.html" class="list-group-item active ">
+                            <span class="fa-stack fa-1x">
+                                <i class="fa fa-regular fa-circle fa-stack-2x" style="color: #85888e;"></i>
+                                <i class="fa fa-user fa-solid fa-stack-1x" style="color: #a0a4ab;"></i>
+                                </span>
+                                <div class=" wd-padding-navbar">Account</div>
+                            </a>
+                
+                         <a href="../home.html" class="list-group-item wd-list-group-item">
+                            <i class="fa fa-glyph"></i>
+                            <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Dashboard</div>
+                        </a>
+                         <a href="../courses.html" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-book fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Courses</div>
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item ">
+                            <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i><br/>
+                            <div class=" wd-padding-navbar">Calendar</div>
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-inbox fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Inbox</div>    
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="far fa-clock fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">History</div>
+                            
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-chalkboard fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Studio</div>
+                            
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-arrow-alt-circle-right fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Commons</div>
+                            
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-question-circle fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Help</div>
+                            
+                        </a>
+                    </div>
                 </td>
                 <!--Course Navigation-->
                 <td>
-                    <ul>
-                        <li> <a href="#">Notifications</a></li>
-                        <li> <a href="#">Profile</a></li>
-                        <li> <a href="#">Files</a></li>
-                        <li> <a href="#">Settings</a></li>
-                        <li> <a href="#">ePortfolios</a></li>
-                        <li> <a href="#">Shared Content</a></li>
-                        <li> <a href="#">the Hub</a></li>
-                        <li> <a href="#">Qwickly Course Tools</a></li>
-                        <li> <a href="#">Global Announcements</a></li>
-                    </ul>
+                    <ul class="list-group wd-acc-nav">
+                        <li class="list-group-item ">
+                            <a href="#">Notifications</a>
+                        </li>
+                        <li class="list-group-item active">
+                            Profile
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">Files</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Settings</a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">ePortfolios</a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">Shared Content</a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">the Hub</a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">Qwickly Course Tools</a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">Global Announcements</a>
+                        </li>
+                      </ul>
                 </td>
                 <!--assingments-->
                 <td>
                     <h5> Jose Annunziato's Profile</h5>
-                    <hr>
-                        <button style="float: right;" onclick="location.href='edit.html'">Edit Profile</button>
+                        <hr>
+                        <span class="fa-stack fa-4x">
+                        <i class="fa fa-regular fa-circle fa-stack-2x float-right" style="color: #d9dee9;"></i>
+                        <i class="fa fa-user fa-solid fa-stack-1x" style="color: #77787b;"></i>
+                        </span>
+                        <button type="button" class="btn btn-light wd-btn-right" onclick="location.href='edit.html'" >
+                            <i class="fas fa-pencil-alt"></i>
+                            Edit Profile</button>
                         <h3>Jose Annunziato</h3>
 
-                        <h4>Biography</h4>
-                        <p>No registered services, you can ass some on the <a href="#">settings</a> page</p>
+                        <h4>Contact</h4>
+                        <p class="wd-acc-nav">No registered services, you can ass some on the <a href="#">settings</a> page</p>
 
                         <h4>Biography</h4>
-                        <p>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</p>
+                        <p class="wd-acc-nav">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</p>
 
                         <h4>Links</h4>
-                        <p> <a href="#">Youtube</a> </p>
+                        <p class="wd-acc-nav"> <a href="https://www.youtube.com/watch?v=xgY59LQfZSA">Youtube</a> </p>
 
                 </td>
             </tr>

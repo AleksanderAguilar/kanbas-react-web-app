@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <title>Home</title>
 </head>
 <body>
@@ -11,97 +14,145 @@
             <tr valign="top">
                 <!-- Kanbas Navigation-->
                 <td>
-                    <ul>
-                        <li>
-                            <a href="index.html">Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="../home.html">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Studio</a>
-                        </li>
-                        <li>
-                            <a href="#">Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                    </ul>
+                    <img style="max-width: 85px;" src="../../images/logo.jpeg"/>
+                    <div class= "navbar"></div> 
+                    <div class=" wd-list-group wd-straight-corners-top ">
+                        <a href="profile/index.html" class="list-group-item active ">
+                            <span class="fa-stack fa-1x">
+                                <i class="fa fa-regular fa-circle fa-stack-2x" style="color: #85888e;"></i>
+                                <i class="fa fa-user fa-solid fa-stack-1x" style="color: #a0a4ab;"></i>
+                                </span>
+                                <div class=" wd-padding-navbar">Account</div>
+                            </a>
+                
+                         <a href="../home.html" class="list-group-item wd-list-group-item">
+                            <i class="fa fa-glyph"></i>
+                            <i class="fa fa-tachometer-alt fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Dashboard</div>
+                        </a>
+                         <a href="../courses.html" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-book fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Courses</div>
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item ">
+                            <i class="fa fa-calendar fa-2x" style="color: #ff0000;"></i><br/>
+                            <div class=" wd-padding-navbar">Calendar</div>
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-inbox fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Inbox</div>    
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="far fa-clock fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">History</div>
+                            
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-chalkboard fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Studio</div>
+                            
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-arrow-alt-circle-right fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Commons</div>
+                            
+                        </a>
+                         <a href="#" class="list-group-item wd-list-group-item">
+                            <i class="fas fa-question-circle fa-2x" style="color: #ff0000;"></i>
+                            <div class=" wd-padding-navbar">Help</div>
+                            
+                        </a>
+                    </div>
                 </td>
                 <!--Course Navigation-->
                 <td>
-                    <ul>
-                        <li> <a href="#">Notifications</a></li>
-                        <li> <a href="#">Profile</a></li>
-                        <li> <a href="#">Files</a></li>
-                        <li> <a href="#">Settings</a></li>
-                        <li> <a href="#">ePortfolios</a></li>
-                        <li> <a href="#">Shared Content</a></li>
-                        <li> <a href="#">the Hub</a></li>
-                        <li> <a href="#">Qwickly Course Tools</a></li>
-                        <li> <a href="#">Global Announcements</a></li>
-                    </ul>
+                        <ul class="list-group wd-acc-nav">
+                            <li class="list-group-item ">
+                                <a href="#">Notifications</a>
+                            </li>
+                            <li class="list-group-item active">
+                                Profile
+                            </li>
+                            <li class="list-group-item ">
+                                <a href="#">Files</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Settings</a>
+                            </li>
+                            <li class="list-group-item ">
+                                <a href="#">ePortfolios</a>
+                            </li>
+                            <li class="list-group-item ">
+                                <a href="#">Shared Content</a>
+                            </li>
+                            <li class="list-group-item ">
+                                <a href="#">the Hub</a>
+                            </li>
+                            <li class="list-group-item ">
+                                <a href="#">Qwickly Course Tools</a>
+                            </li>
+                            <li class="list-group-item ">
+                                <a href="#">Global Announcements</a>
+                            </li>
+                          </ul>
+                        
                 </td>
                 <!--assingments-->
 
                 <td>
                     <h2>Jose Annunziato</h2>
+                    <hr>
 
-                    <label>Name:*</label>
-                    <input type="text" name="name" placeholder="Jose Annunziato">
-                
-                    <label>Pronouns:</label>
-                    <select id="select-one-prnouns">
-                        <option selected value="prnouns">
-                            None</option>
-                        <option value="s">s</option>
-                    </select></br></br>
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-regular fa-circle fa-stack-2x float-right" style="color: #d9dee9;"></i>
+                        <i class="fa fa-user fa-solid fa-stack-1x" style="color: #77787b;"></i>
+                        </span>
+                        <button type="button" class="btn btn-light wd-btn-right" onclick="location.href='index.html'" >
+                            <i class="fas fa-pencil-alt"></i>
+                            Cancel Profile</button>
+                    <div class="mb-3 w-50">
+                    <label for="name" class="col-sm-2 col-form-label"> Name*</label>
+                        <input type="name" class="form-control" id="input1" placeholder="Jose Annunziato">
+                    </div>
 
-                    <label>Name:*</label></br>
-                    <input type="text" name="title">
+                    <div class="mb-3 w-25">
+                        <label for="gender" class="col-sm-2 col-form-label"> Pronouns</label>
+                        <select class="form-select">
+                            <option selected>None</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                         </select>
+                    </div>
 
-                    <h3>Contact</h3>
-                    <p>No registered services, you can add some on the <a href="#">settings</a> page</p>
+                    <div class="mb-3 w-50">
+                        <label for="title" class="col-sm-2 col-form-label"> Title:</label>
+                            <input type="title" class="form-control" id="input1" >
+                    </div>
 
-                    <h3>Contact</h3>
-                    <p>No registered services, you can add some on the <a href="#">settings</a> page</p>
+                    <h4>Bibliography</h4>
+                        <p class="wd-acc-nav">No registered services, you can ass some on the <a href="#">settings</a> page</p>
 
-                    <h3>Biography</h3>
-                    <textarea cols="30" rows="10">
-                        Faculty, Software Engineer, AI, Space, and renewables enthusiast.
-                    </textarea>
+                    <h4>Contact</h4>
+                    <div class="mb-3 w-50">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
 
-                    <h3>Links</h3>
-                    <ul>
-                        <li>
-                            <a href="#">Youtube Links to an external site.</a>
-                        </li>
-                    </ul>
+                    </div>
+
+                    <h4>Links</h4>
+
                     <h3>Title &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp URL</h3>
 
-                    <input type="text" name="name" placeholder="YouTube"> &#8594; <input type="text" name="name" placeholder="https://www.youtube.com"> <a href="#">Remove</a>
+                    <input type="text" name="name" placeholder="YouTube"> &#8594; <input type="text" name="name" placeholder="https://www.youtube.com"> <i class="fa fa-times" style="color: #ff0000;"></i><br>
+                    <button type="button" class="btn btn-light" >Add another Link</button></br></br>
+                    
+                    <div class="mb-3">
+                        <button type="button" class="btn btn-light" onclick="location.href='index.html'">Cancel</button>
+                        
+                        <button type="button" class="btn btn-danger" onclick="location.href='index.html'" >Save Profile</button>
+                    </div>
                 </br>
-
-                <button>Add another Link</button></br>
-                <button>Cancel</button> 
-                <button onclick="location.href='index.html'">Save Profile</button></br>
-                <button>Edit Profile</button> 
-                <button onclick="location.href='index.html'">Cancel Editing</button></br>
-                
-
+                      
                 </td>
             </tr>
         </body>
