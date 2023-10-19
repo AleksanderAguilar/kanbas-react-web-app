@@ -1,0 +1,21 @@
+.wd-course-nav-list {
+    border: none !important;
+    margin-left: 20px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+
+}
+
+.wd-course-nav-item {
+    border: none !important;
+    color: red !important;
+}
+
+
+.wd-course-nav-item.active {
+    color: black !important;
+    background-color: white !important;
+    border-left: 2px solid black !important;
+}

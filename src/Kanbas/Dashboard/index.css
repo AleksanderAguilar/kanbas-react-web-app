@@ -1,0 +1,25 @@
+.wd-flex-row-container {
+    width: 100vw;
+    margin-left: 15px;
+}
+
+hr.bold {
+    border-top: 3px solid black !important;
+    color: black !important;
+}
+
+.wd-card-title {
+    color: blue !important;
+}
+
+.wd-course-card {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    /* margin-left: 20px !important; */
+    margin-right: 20px !important;
+}
+
+.wd-wide {
+    width: 100vw !important;
+    object-fit: cover !important;
+}

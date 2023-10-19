@@ -1,0 +1,54 @@
+.wd-modules-buttons {
+    margin-right: 3px !important;
+    margin-bottom: 5px !important;
+    float: right !important;
+}
+
+.wd-buttons-row {
+    flex-grow: 1 !important;
+}
+
+.wd-form {
+    width: 250px !important;
+    margin-right: 200px;
+}
+
+.wd-first-item {
+    background-color: rgb(214, 214, 214) !important;
+}
+
+.wd-assignment-list {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+    width: 95% !important;
+}
+
+.wd-list-icons {
+    margin-top: 15px !important;
+    margin-right: 10px !important;
+}
+
+.wd-inline{
+    display: inline !important; 
+    flex-grow: 1 !important;
+}
+
+.wd-module-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-grow: 1 !important;
+}
+
+.wd-item-left-border {
+    border-left: 2px solid rgb(1, 100, 9) !important;
+}
+
+.wd-grow{
+    display: flex !important;
+    flex-grow: 1 !important;
+}
+
+/* .wd-assing-list {
+
+
+} */

@@ -1,0 +1,15 @@
+.wd-cols {
+    width: 100% !important;
+    margin-left: 20px !important;
+}
+
+.wd-mod-list-d {
+    width: 200%;
+}
+
+.wd-sidebar{
+    margin-left: 20px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-grow: 1;
+}

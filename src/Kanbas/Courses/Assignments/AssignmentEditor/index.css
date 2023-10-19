@@ -1,0 +1,14 @@
+.wd-grow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px !important;
+
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+  }
+  
+.wd-button-margin {
+    margin-left: 5px !important;
+}

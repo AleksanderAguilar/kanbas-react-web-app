@@ -1,0 +1,54 @@
+.wd-modules-buttons {
+    margin-right: 3px !important;
+    margin-bottom: 5px !important;
+    float: right !important;
+}
+
+.wd-buttons-row {
+
+    float: right !important;
+    float: right;
+    
+}
+
+.wd-mod-list {
+    margin-top: 10px !important;
+}
+
+/* module list stuff */
+.wd-module-list {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.wd-module-list-item {
+    background-color:  #FBFBFB!important;
+    margin-bottom: 40px !important;
+    border-radius: 5px !important;
+}
+
+.wd-module-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-grow: 1;
+    
+}
+
+.wd-elipse {
+    margin-top: 10px !important;
+    padding-right: 5px !important;
+}
+
+.wd-grow{
+    display: flex !important;
+    flex-grow: 1 !important;
+}
+
+.wd-right{
+    
+    float: right !important;
+    display: flex !important;
+    flex-direction: row !important;
+}

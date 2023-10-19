@@ -1,0 +1,35 @@
+div.wd-kanbar-container{
+    width: 150px;
+    height: 100vh;
+    background-color: #000000;
+}
+
+div.wd-logo-container{
+    width: 150px;
+    height: 100px !important;
+
+}
+
+.wd-list-group-navbar{
+    padding-bottom: 15px !important;
+    background-color: #000000  !important;
+    border: #000000 !important;
+    color: rgb(246, 246, 246) !important;
+    text-align: center !important;
+
+}
+.wd-list-group-navbar.active {
+    color: rgb(240, 16, 16) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: #fff;
+}
+
+
+.wd-list-nav-bar {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    color: red  !important;
+    border-color: red !important;
+}

@@ -1,0 +1,28 @@
+.wd-grow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px !important;
+
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+    margin-right: 50px;
+  }
+  
+.wd-button-margin {
+    margin-left: 5px !important;
+}
+
+.wd-form-with {
+   width: 500px !important;
+   margin-left: 20px !important;
+   margin-right: 10px !important;
+}
+
+.wd-table {
+    margin-top: 10px !important;
+}
+.wd-bb {
+    margin-left: 5px !important;
+}
