@@ -23,3 +23,22 @@ hr.bold {
     width: 100vw !important;
     object-fit: cover !important;
 }
+
+.wd-button-margin{
+    margin-right: 5px !important;
+}
+
+.wd-input-container{
+    height: 270px !important;
+    width: 700px !important;
+}
+.wd-input-margin{
+    margin-right: 100px !important;
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.wd-card-margin{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}

@@ -4,6 +4,15 @@
     float: right !important;
 }
 
+.wd-modules-margins {
+    margin-bottom: 6px !important;
+}
+
+.wd-modules-buttons-change {
+    margin-right: 3px !important;
+    margin-bottom: 5px !important;
+}
+
 .wd-buttons-row {
 
     float: right !important;
@@ -21,12 +30,18 @@
     border-top-right-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
+    border: none !important;
 }
 
 .wd-module-list-item {
     background-color:  #FBFBFB!important;
     margin-bottom: 40px !important;
     border-radius: 5px !important;
+}
+
+.wd-module-list-change {
+    border-bottom: 0px solid blue;
+
 }
 
 .wd-module-row {

@@ -8,6 +8,13 @@ import { PiDotsSixVerticalBold } from 'react-icons/pi'
 import { AiOutlinePlus } from 'react-icons/ai'
 import { CgNotes } from 'react-icons/cg'
 import { IoIosCheckmarkCircle } from 'react-icons/io'
+import { useSelector, useDispatch } from "react-redux";
+import {
+    addAssignment,
+    deleteAssignment,
+    updateAssignment,
+    selectAssignment,
+} from "./assignmentsReducer";
 
 
 import './index.css'
@@ -15,9 +22,14 @@ import './index.css'
 
 function Assignments() {
     const { courseId } = useParams();
-    const assignments = db.assignments;
-    const courseAssignments = assignments.filter(
-        (assignment) => assignment.course === courseId);
+    // const assignments = db.assignments;
+    // const courseAssignments = assignments.filter(
+    //     (assignment) => assignment.course === courseId);
+    const courseAssignments = useSelector((state) => state.assignmentsReducer.assignments);
+    const assignment = useSelector((state) => state.assignmentsReducer.assignment);
+    const dispatch = useDispatch();
+
+
     return (
 
         <div className="row">
@@ -29,7 +41,14 @@ function Assignments() {
 
                 <div className="wd-buttons-row">
                     <Button variant="light" className='wd-modules-buttons '><BsThreeDotsVertical /></Button>{' '}
-                    <Button variant="danger" className='wd-modules-buttons'>+ Assignment</Button>{' '}
+
+                    <Link to={`/Kanbas/Courses/${courseId}/Assignments/newAssignment`}
+                        className="btn btn-danger wd-modules-buttons"
+                    >
+
+                        + Assignment
+                    </Link>
+
                     <Button variant="light" className='wd-modules-buttons'>+ Group</Button>{' '}
 
                 </div>
@@ -53,6 +72,7 @@ function Assignments() {
 
                     <Link
                         key={assignment._id}
+                        onClick={() => dispatch(selectAssignment(assignment))}
                         to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}
                         className="list-group-item wd-module-row">
 
@@ -60,7 +80,7 @@ function Assignments() {
 
                         <div className="wd-list-icons">
                             <PiDotsSixVerticalBold size={25} />
-                            <CgNotes size={25} style={{ color: "green" }}  />
+                            <CgNotes size={25} style={{ color: "green" }} />
                         </div>
                         <div className="wd-grow">
                             <div>
@@ -73,15 +93,15 @@ function Assignments() {
                         <div style={{ float: 'right' }} className="wd-list-icons">
                             <IoIosCheckmarkCircle style={{ color: "green" }} size={25} />
                             <BsThreeDotsVertical size={25} />
+                                <Button variant="danger" className='wd-modules-buttons'
+                                    onClick={() => dispatch(deleteAssignment(assignment))}
+                                >Delete</Button>
                         </div>
-
-
-
-
-
                     </Link>
+
                 ))}
             </div>
+
         </div>
     );
 }
