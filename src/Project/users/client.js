@@ -4,7 +4,7 @@ const request = axios.create({
 });
 
 export const BASE_API = process.env.REACT_APP_BASE_API_URL;
-export const USERS_API = `http://localhost:4000/api/users`;
+export const USERS_API = `https://kanbas-node-server-app-5boe.onrender.com/api/users`;
 
 export const signin = async (credentials) => {
   const response = await request.post( `${USERS_API}/signin`, credentials );
